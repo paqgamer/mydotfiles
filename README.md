@@ -53,6 +53,14 @@ Como eu utilizo máquinas com propósitos e hardwares diferentes, dividi os arqu
 <br>
 
 ## 📦 A Megathread de Aplicativos (🚧EM CONSTRUÇÃO🚧)
+**Índice Rápido:**
+* [🖥️ Core System & Terminal](#core-system--terminal)
+* [🛠️ Desenvolvimento & Engenharia](#desenvolvimento--engenharia)
+* [🌐 Navegação, Comunicação & Downloads](#navegação-comunicação--downloads)
+* [✍️ Escrita, Leitura & Produtividade](#escrita-leitura--produtividade)
+* [🎬 Mídia & Entretenimento](#mídia--entretenimento)
+
+---
 
 Esta é a coletânea de ferramentas que utilizo no meu dia a dia no Arch Linux. A lista está dividida por categorias para facilitar a navegação.
 
