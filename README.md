@@ -10,11 +10,18 @@ Um repositório pessoal para manter meu ambiente de desenvolvimento e uso diári
 ![Bash](https://img.shields.io/badge/Scripts-Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white)
 
 <br>
-
-<img src="./screenshots/desktop.png" alt="Desktop" width="50%" />
-<img src="./screenshots/desktopwindows.png" alt="Notebook" width="50%" />
-
-
+<table>
+  <tr>
+    <td valign="top" width="50%">
+      <img src="./screenshots/desktop.png" alt="Desktop Setup" width="100%">
+      <p align="center">🖥️ Arch Linux (Desktop)</p>
+    </td>
+    <td valign="top" width="50%">
+      <img src="./screenshots/desktopwindows.png" alt="Windows Setup" width="100%">
+      <p align="center">🪟 Ambiente Secundário / Notebook</p>
+    </td>
+  </tr>
+</table>
 
 ---
 </div>
