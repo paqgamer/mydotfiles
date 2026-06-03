@@ -50,3 +50,40 @@ Como eu utilizo máquinas com propósitos e hardwares diferentes, dividi os arqu
  ┃ ┗ 📜 hyprland.conf        
  ┗ 📂 notebook/              # Configurações focadas em economia de bateria e rede móvel
    ┗ 📜 hyprland.conf
+
+<br>
+## 📦 A Megathread de Aplicativos (🚧EM CONSTRUÇÃO🚧)
+
+Esta é a coletânea de ferramentas que utilizo no meu dia a dia no Arch Linux. A lista está dividida por categorias para facilitar a navegação.
+
+### 🖥️ Core System & Terminal
+| Ícone | Categoria | Ferramenta | Por que uso? |
+| :---: | :--- | :--- | :--- |
+| 🐚 | Shell | Zsh | *[Insira o motivo aqui]* |
+| 💻 | Terminal | Kitty | *[Insira o motivo aqui]* |
+| 📂 | Gerenciador de Arquivos | Dolphin | *[Insira o motivo aqui]* |
+
+### 🛠️ Desenvolvimento & Engenharia
+| Ícone | Categoria | Ferramenta | Por que uso? |
+| :---: | :--- | :--- | :--- |
+| 📝 | Editor de Código | VSCodium | *[Insira o motivo aqui]* |
+| 🦭 | Containers | Podman Desktop | *[Insira o motivo aqui]* |
+
+### 🌐 Navegação, Comunicação & Downloads
+| Ícone | Categoria | Ferramenta | Por que uso? |
+| :---: | :--- | :--- | :--- |
+| 🦊 | Navegador Web | Floorp | *[Insira o motivo aqui]* |
+| 💬 | Central Social | Ferdium | *[Insira o motivo aqui]* |
+| 📥 | Gestor de Downloads | AB Download Manager | *[Insira o motivo aqui]* |
+
+### ✍️ Escrita, Leitura & Produtividade
+| Ícone | Categoria | Ferramenta | Por que uso? |
+| :---: | :--- | :--- | :--- |
+| 📚 | Escrita Criativa | novelWriter | *[Insira o motivo aqui]* |
+| 📖 | Leitura & E-books | Calibre | *[Insira o motivo aqui]* |
+| 💼 | Suíte de Escritório | LibreOffice / Google Docs | *[Insira o motivo aqui]* |
+
+### 🎬 Mídia & Entretenimento
+| Ícone | Categoria | Ferramenta | Por que uso? |
+| :---: | :--- | :--- | :--- |
+| 🧡 | Player de Vídeo | VLC | *[Insira o motivo aqui]* |
