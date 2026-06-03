@@ -50,7 +50,7 @@ Como eu utilizo máquinas com propósitos e hardwares diferentes, dividi os arqu
  ┃ ┗ 📜 hyprland.conf        
  ┗ 📂 notebook/              # Configurações focadas em economia de bateria e rede móvel
    ┗ 📜 hyprland.conf
-
+```
 <br>
 ## 📦 A Megathread de Aplicativos (🚧EM CONSTRUÇÃO🚧)
 
