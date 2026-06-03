@@ -9,6 +9,13 @@ Um repositório pessoal para manter meu ambiente de desenvolvimento e uso diári
 ![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
 ![Bash](https://img.shields.io/badge/Scripts-Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white)
 
+<br>
+
+<img src="./screenshots/desktop.png" alt="Desktop" width="30%" />
+<img src="./screenshots/desktopwindows.png" alt="Notebook" width="30%" />
+
+
+
 ---
 *IREI ADICIONAR IMAGEM  AQUI `![Screenshot](./screenshot.png)`)*
 </div>
