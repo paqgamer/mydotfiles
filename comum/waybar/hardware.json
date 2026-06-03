@@ -1,0 +1,25 @@
+{
+  "cpu": {
+    "format": " {usage}%",
+    "on-click": "kitty -e htop"
+  },
+
+  "memory": {
+    "format": " {}%",
+    "on-click": "kitty -e htop"
+  },
+
+  "disk": {
+    "interval": 30,
+    "format": "D {percentage_used}% ",
+    "path": "/",
+    "on-click": "kitty -e htop"
+  },
+
+ 
+
+  "group/hardware": {
+    "orientation": "horizontal",
+    "modules": ["cpu", "memory", "disc", "temperature"]
+  }
+}
