@@ -59,31 +59,31 @@ Esta é a coletânea de ferramentas que utilizo no meu dia a dia no Arch Linux. 
 ### 🖥️ Core System & Terminal
 | Categoria | Ferramenta | Por que uso? |
 | :--- | :--- | :--- |
-| Shell | Zsh | *[Insira o motivo aqui]* |
-| Terminal | Kitty | *[Insira o motivo aqui]* |
-| Gerenciador de Arquivos | Dolphin | *[Insira o motivo aqui]* |
+| Shell | Zsh | *[O bash é top, porém o zsh tem mais complementos como oh-my-zsh e o autocomplete é muito melhor]* |
+| Terminal | Kitty | *[Leve, bonito e útil, minimalista mas poderoso]* |
+| Gerenciador de Arquivos | Dolphin | *[Mesmo fora do ecosistema da KDE, é um dos melhores, porém se quiser outro recomendo thunar, pcmanfm, nemo etc]* |
 
 ### 🛠️ Desenvolvimento & Engenharia
 | Categoria | Ferramenta | Por que uso? |
 | :--- | :--- | :--- |
-| Editor de Código | VSCodium | *[Insira o motivo aqui]* |
-| Containers | Podman Desktop | *[Insira o motivo aqui]* |
+| Editor de Código | VSCodium | *[Vscode, porém código aberto, sem telemetria da microsoft (mais leve) e com suporte total as extensões do vscode normal,]* |
+| Containers | Podman Desktop | *[O  docker-desktop é muito ruim, o podman além de ter sua engine propria, tem o podmandesktop que consegue gerir outras ferramentas incluindo o docker (bem  melhor que o docker-desktop)]* |
 
 ### 🌐 Navegação, Comunicação & Downloads
 | Categoria | Ferramenta | Por que uso? |
 | :--- | :--- | :--- |
-| Navegador Web | Floorp | *[Insira o motivo aqui]* |
-| Central Social | Ferdium | *[Insira o motivo aqui]* |
-| Gestor de Downloads | AB Download Manager | *[Insira o motivo aqui]* |
+| Navegador Web | Floorp | *[Gosto do firefox, porém uso floorp por ter "workspaces", que dividem o  fluxo de trabalho, estudo, pesquisa  etc, tem extensões pra isso eu acho, mas gostei do floorp]* |
+| Central Social | Ferdium | *[Aqui consegue juntar whatsapp, discord, trello etc em um app só, é como se tivesse rodando o site, mas de forma organizada e mais intuitiva que simplesmente abrir no navegador]* |
+| Gestor de Downloads | AB Download Manager | *[Melhor que baixar  no navegador, leve, e se integra no navegador com uma extensao, então é só clicar  baixar no navegador que vai direto pro popup do AB-DM]* |
 
 ### ✍️ Escrita, Leitura & Produtividade
 | Categoria | Ferramenta | Por que uso? |
 | :--- | :--- | :--- |
-| Escrita Criativa | novelWriter | *[Insira o motivo aqui]* |
-| Leitura & E-books | Calibre | *[Insira o motivo aqui]* |
-| Suíte de Escritório | LibreOffice / Google Docs | *[Insira o motivo aqui]* |
+| Escrita Criativa | novelWriter | *[Muito  completo e organizado, focado em escrita de livros e projetos complexos, nao para anotações simples etc]* |
+| Leitura & E-books | Calibre | *[Faz tudo no que diz respeito a livros e documentos variados, lê, converte, edita metadados etc. Além de organização de biblioteca digital, o que torna possível configuração de bibliotecas remotas e compartilhadas entre  dispositivos]* |
+| Suíte de Escritório | LibreOffice / Google Docs | *[Libreoffice porque é código aberto e faz tudo, ou quase, que o da microsoft. Googledocs, por mais que não seja aberto, e provavelmente espione até a alma, é util pro dia a dia e colaboração simultânea]* |
 
 ### 🎬 Mídia & Entretenimento
 | Categoria | Ferramenta | Por que uso? |
 | :--- | :--- | :--- |
-| Player de Vídeo | VLC | *[Insira o motivo aqui]* |
+| Player de Vídeo | VLC | *[Tem melhores pra cada uso, tem mais  leves, mais robustos etc, mas o VLC segue invicto abrindo tudo que preciso e rodando em todos os sistemas que conheço]* |
