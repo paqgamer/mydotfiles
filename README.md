@@ -11,13 +11,12 @@ Um repositório pessoal para manter meu ambiente de desenvolvimento e uso diári
 
 <br>
 
-<img src="./screenshots/desktop.png" alt="Desktop" width="30%" />
-<img src="./screenshots/desktopwindows.png" alt="Notebook" width="30%" />
+<img src="./screenshots/desktop.png" alt="Desktop" width="50%" />
+<img src="./screenshots/desktopwindows.png" alt="Notebook" width="50%" />
 
 
 
 ---
-*IREI ADICIONAR IMAGEM  AQUI `![Screenshot](./screenshot.png)`)*
 </div>
 
 ## 🛠️ O Setup
