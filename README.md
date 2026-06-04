@@ -31,26 +31,11 @@ Um repositório pessoal para manter meu ambiente de desenvolvimento e uso diári
 Essas são as engrenagens principais que fazem o sistema rodar:
 
 * **Sistema Operacional:** Arch Linux
-<br>
- 
-  Sistema  leve e poderoso, nao vem com tralha e o usuário coloca apenas o que quer, não é difícil de usar  como dizem, e sinceramente  acho mais estável que muitos outros por aí
 * **Window Manager:** Hyprland (Wayland)
-  <br>
-  
-  Minimalista, não  é um ambiente desktop completo,  vem sem nada e tu  coloca o que quiser. É extremamente  configurável
 * **Barra de Status:** Waybar
-<br>
-
-  Serve como  barra de tarefas/status/widgets, altamente configurável com  json e CSS. Há alternativas para diferentes usos como ashell, eww, AGS etc.
 * **Lockscreen:** Hyprlock
 * **Captura de Tela:** Grim + Slurp + Magick
-<br>
-
-Permite tirar print da tela de forma que se selecione apenas a parte que queira capturar, e podendo salvar a imagem ou apenas copiar para colar em algum lugar.
 * **Edição Rápida:** Satty
-<br>
-
-Permite fazer edições rapidas nos  prints, como anotações, setas indicativas, cortes etc.
 
 ## 📂 Estrutura do Repositório
 
