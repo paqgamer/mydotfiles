@@ -147,4 +147,28 @@ Use o seguinte comando para verificar os discos e partições disponíveis:
 lsblk
 ```
 
+Identifique o seu disco principal prestando atenção ao tamanho de armazenamento de cada um. O disco de instalação geralmente será listado como:
+
+    sda, sdb, sdc... (para HDDs e SSDs padrão SATA)
+
+    nvme0n1, nvme1n1... (para SSDs NVMe M.2)
+
+
+Para particionar, usaremos o `cfdisk`, que possui uma interface amigável no terminal. Substitua `sdX` pelo nome do seu disco principal identificado no passo anterior (por exemplo, `sda` ou `nvme0n1`).
+
+```bash
+cfdisk /dev/sdX
+```
+Siga este fluxo para criar um esquema básico para sistemas UEFI modernos:
+
+1. **Tabela de Partições:** Se o disco for novo ou estiver totalmente limpo, o programa pedirá para escolher o tipo de tabela (label). Selecione **gpt**.
+
+2. **Partição de Boot (EFI):** Selecione o espaço livre (`Free space`) e vá em **New** (Novo) na parte inferior. Para o tamanho, digite `512M` e aperte Enter. Em seguida, vá em **Type** (Tipo) e mude para **EFI System**.
+
+3. **Partição Swap (Opcional, mas recomendada):** Selecione o espaço livre restante e vá em **New**. Digite o tamanho desejado (ex: `4G` ou `8G`) e aperte Enter. Vá em **Type** e mude para **Linux swap**.
+
+4. **Partição Principal (Root):** Selecione o que sobrou do espaço livre e vá em **New**. Aperte Enter direto para usar todo o espaço restante. O tipo padrão já será **Linux filesystem**, então não é necessário alterar.
+
+5. **Salvar:** Selecione a opção **Write** na parte inferior, digite a palavra `yes` e aperte Enter para confirmar a gravação. Depois, vá em **Quit** para sair da ferramenta.
+
 (🚧EM CONSTRUÇÃO🚧) atualizo em breve
