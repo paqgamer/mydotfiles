@@ -1,7 +1,7 @@
 {
   "layer": "top", // Waybar at top layer
   "position": "top", // Waybar position (top|bottom|left|right)
-  "height": 16, // Waybar height (to be removed for auto height)
+  "height": 33, // Waybar height (to be removed for auto height)
   // "width": 1280, // Waybar width
   "spacing": 8, // Gaps between modules (4px)
   "margin-top": 8,
@@ -13,7 +13,7 @@
     "~/.config/waybar/modules.json",
     "~/.config/waybar/quicklinks.json",
     "~/.config/waybar/hardware.json",
-    "~/.config/waybar/media.json",
+    "~/.config/waybar/media.json"
   ],
   "modules-left": [
     "custom/appmenu",
@@ -26,13 +26,15 @@
     "hyprland/workspaces"
   ],
   "modules-right": [
+	"custom/pomodoro",
     // "network",
     // "mpd",
     "group/media",
     // "group/hardware",
     "clock",
     "custom/notification",
-    "custom/backlight"
+    "custom/backlight",
+    "custom/power"
   ],
 "custom/backlight": {
       // Removido o --nocheck que causou o erro
@@ -42,6 +44,18 @@
       "on-scroll-up": "ddcutil setvcp 10 --bus 7 + 5",
       "on-scroll-down": "ddcutil setvcp 10 --bus 7 - 5",
       "tooltip": false
-    }
-  
+    },
+    "custom/pomodoro": {
+            "format": "🍅{}",
+            "exec": "uair",
+            "on-click": "uairctl toggle",
+            "on-click-right": "uairctl next",
+            "on-click-middle": "uairctl prev"
+        },
+
+  "custom/power": {
+      "format": "⏻",
+      "on-click": "wlogout",
+      "tooltip": false
+  }
 }
