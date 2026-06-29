@@ -32,6 +32,8 @@ Um repositório pessoal para manter meu ambiente de desenvolvimento e uso diári
 Essas são as engrenagens principais que fazem o sistema rodar:
 
 - **Sistema Operacional:** [Arch Linux](https://archlinux.org/)
+| [Tutorial De instalação](tutorial_arch.md)
+
 - **Window Manager:** [Hyprland (Wayland)](https://hypr.land/)
 - **Barra de Status:** [Waybar](https://github.com/alexays/waybar)
 - **Lockscreen:** [Hyprlock](https://wiki.hypr.land/Hypr-Ecosystem/hyprlock/)

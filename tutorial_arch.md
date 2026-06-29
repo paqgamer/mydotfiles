@@ -69,3 +69,82 @@ Agora vamos preparar o disco rígido (HD ou SSD) do seu computador para receber 
 > [!WARNING]
 > **ATENÇÃO TOTAL:** A partir daqui, todos os comandos envolvem manipulação direta do disco. **Todos os dados existentes no disco escolhido serão APAGADOS.** Verifique duas vezes cada comando antes de pressionar `Enter`.
 
+---
+### 3.1 Conectando à internet 
+
+Caso esteja usando intenet via cabo, teste a  conexão usando:
+
+```bash
+ ping -c 4 google.com
+```
+Se aparecer uns numeros  tipo 80ms, 90ms etc, está com internet funcional, caso contrário, tente reconectar o cabo e tente novamente.
+
+**Usando WIFI:**
+**Passo 1 – Descubra o nome exato do seu adaptador Wi-Fi**
+
+Geralmente é wlan0 **mas nem sempre** será `wlan0`. Dependendo do hardware e do driver, o nome pode ser:
+
+- `wlp2s0` (padrão em muitos notebooks)
+- `wlan0` (mais antigo)
+- `wlx00c0ca123456` (quando o endereço MAC é usado no nome)
+- `wlo1` (em alguns Dell/HPs)
+
+Para descobrir, execute no terminal:
+
+```bash
+iwctl device list
+```
+> se nao aparecer  nada, use internet cabeada (cabo lan)
+
+deve aparecer algo parecido com isso:
+```
+wlp2s0              00:11:22:33:44:55   on        phy0      station
+```
+
+Agora precisa escanear pelas redes wifi, use o comando abaixo substituindo "wlp2s0" pelo que apareceu para você anteriormente:
+```
+iwctl station wlp2s0 scan
+```
+Esse comando não deve retornar nada, para exibir as redes wifi, use o seguinte comando:
+> Lembre de substituir o nome do adaptador de rede "wlp2s0" pelo seu:
+```
+iwctl station wlp2s0 get-networks
+```
+Agora deve aparecer na sua tela todas as redes WIFI detectadas pelo seu computador
+Para se conectar use este comando, digitando o nome EXATAMENTE IGUAL da sua rede:
+```
+iwctl station wlp2s0 connect NomedasuaRede
+```
+aperte enter e com isso deve pedir a senha do wifi, digite a senha e tecle  enter
+Para testar  se a  conexão foi bem sucedida, digite "exit" e aperte enter, ou aperte CTRL+C para sair do iwctl, e digite o seguinte comando:
+```
+ping -c 4 google.com
+```
+Com isso é  possível verificar se a conexão foi bem sucedida, caso não tenha nenhum erro, prossiga
+
+### 3.2 Relógio
+
+Para ativar a sincronização automática via internet (NTP), execute:
+
+```bash
+timedatectl set-ntp true
+```
+E para verificar use:
+```
+timedatectl status
+```
+Caso retorne algo como System clock synchronized: yes e NTP service: active, deu certo.
+
+### 3.3 Particionamento de Disco
+
+Para de fato colocar o Arch dentro do seu computador, é necessário preparar o local onde ele será instalado
+
+> [!WARNING]
+> **Atenção**: Os comandos a seguir irão apagar os dados do disco selecionado. Tenha certeza absoluta de qual disco você está formatando.
+
+Use o seguinte comando para verificar os discos e partições disponíveis:
+```bash
+lsblk
+```
+
+(🚧EM CONSTRUÇÃO🚧) atualizo em breve
