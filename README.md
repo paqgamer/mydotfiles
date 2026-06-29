@@ -78,11 +78,11 @@ Esta é a coletânea de ferramentas que utilizo no meu dia a dia no Arch Linux. 
 | Containers       | [Podman Desktop](https://podman-desktop.io/) | *O  docker-desktop é muito ruim, o podman além de ter sua engine propria, tem o podmandesktop que consegue gerir outras ferramentas incluindo o docker (bem  melhor que o docker-desktop)* |
 
 ### 🌐 Navegação, Comunicação & Downloads
-| Categoria           | Ferramenta                                            | Por que uso?                                                                                                                                                                      |
-| :--------------------| :------------------------------------------------------| :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Navegador Web       | [Floorp](https://floorp.app/)                         | *Gosto do firefox, porém uso floorp por ter "workspaces", que dividem o  fluxo de trabalho, estudo, pesquisa  etc, tem extensões pra isso eu acho, mas gostei do floorp*          |
-| Central Social      | [Ferdium](https://ferdium.org/)                       | *Aqui consegue juntar whatsapp, discord, trello etc em um app só, é como se tivesse rodando o site, mas de forma organizada e mais intuitiva que simplesmente abrir no navegador* |
-| Gestor de Downloads | [AB-Download Manager](https://abdownloadmanager.com/) | *Melhor que baixar  no navegador, leve, e se integra no navegador com uma extensao, então é só clicar  baixar no navegador que vai direto pro popup do AB-DM*                     |
+| Categoria           | Ferramenta                                                                     | Por que uso?                                                                                                                                                                                                                                                        |
+| :--------------------| :-------------------------------------------------------------------------------| :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Navegador Web       | [Floorp](https://floorp.app/)                                                  | *Gosto do firefox, porém uso floorp por ter "workspaces", que dividem o  fluxo de trabalho, estudo, pesquisa  etc, tem extensões pra isso eu acho, mas gostei do floorp*                                                                                            |
+| Central Social      | [Ferdium](https://ferdium.org/)   [ElecWhat](https://github.com/piec/elecwhat) | *Aqui consegue juntar whatsapp, discord, trello etc em um app só, é como se tivesse rodando o site, mas de forma organizada e mais intuitiva que simplesmente abrir no navegador, e elecwhat é melhor para apenas whatsapp por  suportar ligações no modo web beta* |
+| Gestor de Downloads | [AB-Download Manager](https://abdownloadmanager.com/)                          | *Melhor que baixar  no navegador, leve, e se integra no navegador com uma extensao, então é só clicar  baixar no navegador que vai direto pro popup do AB-DM*                                                                                                       |
 
 ### ✍️ Escrita, Leitura & Produtividade
 | Categoria           | Ferramenta                                                                            | Por que uso?                                                                                                                                                                                                                               |
@@ -95,3 +95,11 @@ Esta é a coletânea de ferramentas que utilizo no meu dia a dia no Arch Linux. 
 | Categoria       | Ferramenta                       | Por que uso?                                                                                                                                                 |
 | :----------------| :---------------------------------| :-------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Player de Vídeo | [VLC](https://www.videolan.org/) | *Tem melhores pra cada uso, tem mais  leves, mais robustos etc, mas o VLC segue invicto abrindo tudo que preciso e rodando em todos os sistemas que conheço* |
+[Mpv](https://www.mpv.io/) Mpv é um player leve e multiplataforma de código aberto com uma interface gráfica  extremamente minimalista. Recomendado para  máquinas com baixo poder de performance.
+
+
+### Conversão de arquivos:
+|:--------:|:-------:|:-------:
+[Pandoc](pandoclink) Pandoc-cli, converte, exporta e refatora documentos de múltiplos formatos, com suporte total à edição de metadados
+[ffmpeg](ffmpeg.org)
+
