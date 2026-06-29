@@ -77,6 +77,7 @@ Esta é a coletânea de ferramentas que utilizo no meu dia a dia no Arch Linux. 
 | Shell                   | [Zsh](https://www.zsh.org/)                  | _O bash é top, porém o zsh tem mais complementos como oh-my-zsh e o autocomplete é muito melhor_                |
 | Terminal                | [Kitty](https://github.com/kovidgoyal/kitty) | _Leve, bonito e útil, minimalista mas poderoso_                                                                 |
 | Gerenciador de Arquivos | [Dolphin](https://apps.kde.org/dolphin/)     | _Mesmo fora do ecosistema da KDE, é um dos melhores, porém se quiser outro recomendo thunar, pcmanfm, nemo etc_ |
+|Tele de Logout/energia | [wlogout](https://github.com/ArtsyMacaw/wlogout) | _Para nao ter ficar desligando o pc com comando, é melhor ter um botãozinho para isso_  |
 
 ### 🛠️ Desenvolvimento & Engenharia
 
