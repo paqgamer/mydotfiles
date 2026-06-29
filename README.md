@@ -103,11 +103,11 @@ Esta é a coletânea de ferramentas que utilizo no meu dia a dia no Arch Linux. 
 
 | Categoria       | Ferramenta                       | Por que uso?                                                                                                                                                         |
 | :----------------| :---------------------------------| :---------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Player de Vídeo | [VLC](https://www.videolan.org/) | Tem melhores pra cada uso, tem mais leves, mais robustos etc, mas o VLC segue invicto abrindo tudo que preciso e rodando em todos os sistemas que conheço            |
-| Player de Vídeo | [Mpv](https://www.mpv.io/)       | Mpv é um player leve e multiplataforma de código aberto com uma interface gráfica extremamente minimalista. Recomendado para máquinas com baixo poder de performance |
+| Player de Vídeo | [VLC](https://www.videolan.org/) | _Tem melhores pra cada uso, tem mais leves, mais robustos etc, mas o VLC segue invicto abrindo tudo que preciso e rodando em todos os sistemas que conheço_  |
+| Player de Vídeo | [Mpv](https://www.mpv.io/)       | _Mpv é um player leve e multiplataforma de código aberto com uma interface gráfica extremamente minimalista. Recomendado para máquinas com baixo poder de performance_ |
   
 ### Conversão de arquivos:
 | Categoria                     | Ferramenta                    | Por que                                                                                                                                     |
 | :--------------| :------------------------------| :----------------|
-| Canivevte suíço de documentos | [Pandoc](https://pandoc.org/) | Pandoc-cli, converte, exporta e refatora documentos de múltiplos formatos, com suporte total à edição de metadados                          |
-| Faz  tudo em vídeos           | [ffmpeg](https://ffmpeg.org)  | ffmpeg, converte vídeos para todos os  formatos que conheço, com capacidade avançada de manipulação  de mídia, como cortes, compressão etc |
+| Canivevte suíço de documentos | [Pandoc](https://pandoc.org/) | _Pandoc-cli, converte, exporta e refatora documentos de múltiplos formatos, com suporte total à edição de metadados_                          |
+| Faz  tudo em vídeos           | [ffmpeg](https://ffmpeg.org)  | _ffmpeg, converte vídeos para todos os  formatos que conheço, com capacidade avançada de manipulação  de mídia, como cortes, compressão etc_ |
