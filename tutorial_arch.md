@@ -8,7 +8,10 @@
 </div>
 
 ## Primeiros passos: Preparando o terreno
- 
+
+ > [!WARNING]
+ > Se você está aqui, você provavelmente não sabe o que tá fazendo, lê o texto, caso contrário pode acabar algo que se arrependa  muito, ou apenas perca seu tempo corrigindo a cagada depois!!
+
 ### 1. Criando a mídia de instalação
 
 * **Backup:** Tenha em mãos um pendrive de no mínimo 8GB. Faça backup de todos os seus arquivos, pois a unidade será completamente formatada.
@@ -398,7 +401,63 @@ Válido mencionar que é possível instalar  vários pacotes de uma vez, separan
 ```
 sudo pacman -S firefox brave kitty vlc ffmpeg vscodium 
 ```
+
+**PARA BUSCAR** por pacotes/apps  que podem ser instalados pelo pacman, acesse https://archlinux.org/packages/ 
+
+
+
 > [!WARNING]
 > Atualize regularmente o sistema com `sudo pacman -Syu`
 
-(🚧EM CONSTRUÇÃO🚧) atualizo em breve
+
+
+## DICAS EXTRAS:
+    Nem todos os pacotes estão disponíveis pelo pacman nativamente, sendo assim recomendo instalação do paru, que permite instalar apps do `AUR` (É tipo um banco extra-extra de apps,)
+> Tem o `yay` também, mas uso `paru` , é a mesma coisa eu acho.
+    Para instalar o paru, use os seguintes comandos:
+
+```
+sudo pacman -S --needed base-devel
+git clone https://aur.archlinux.org/paru.git
+cd paru
+makepkg -si
+```
+Com isso você não precisa mais digitar `sudo pacman -Syu` para atualizar  o sistema, basta usar `paru` e apertar enter
+```
+paru
+```
+
+E agora você  pode pesquisar por pacotes usando:
+```
+paru nomedopacote
+```
+Assim se exibe uma lista de pacotes encontrados com aquele nome, e se estão no repositório oficial ou no de usuário (AUR)
+Digite o numero do item que deseja instalar (a esquerda do nome), aperte enter e confirme o que for solicitado
+
+#### **EXEMPLO:**
+```
+ ~ paru wallpaperengine
+1 aur/linux-wallpaperengine-git r592.fe32484-1 [+11 ~0.55]
+    use steam's wallpaperengine on linux
+2 aur/linux-wallpaper-engine-bin 0.4.3-1 [+3 ~1.20]
+    Wallpaper Engine for Linux by jagrat7. (Requires linux-wallpaperengine-git)
+3 aur/linux-wallpaper-engine-ux 0.4.9-1 [+1 ~1.00]
+    Modern desktop GUI for linux-wallpaperengine
+4 aur/wallpaperengine-gui 1.2.0-1 [+1 ~0.01]
+    GUI for linux-wallpaperengine
+5 aur/wallpaperengine-gui-git r32.3032b22-1 [+1 ~0.01]
+    GUI for linux-wallpaperengine
+6 aur/linux-wallpaperengine-core-git r660.76a5fd3-1 [+0 ~0.00]
+    linux-wallpaperengine backend code, handles rendering of wallpapers for the various frontends out there
+7 aur/linux-wallpaperengine-gui-git r1.0000000-1 [+0 ~0.00]
+    GUI for linux-wallpaperengine using Go(Backend) and Electron(Frontend)
+8 aur/niri-wallpaperengine-git r601.be77336-1 [+0 ~0.00] [Installed: r603.92db907-1]
+    Wallpaper Engine backgrounds for Linux! Using background layer, compatible with niri blur.
+9 aur/simple-linux-wallpaperengine-gui-git r10.456549c-5 [+0 ~0.00]
+    A modern, universal GUI for linux-wallpaperengine
+:: Packages to install (eg: 1 2 3, 1-3):
+::
+```
+
+
+## (🚧EM CONSTRUÇÃO🚧) atualizo em breve
