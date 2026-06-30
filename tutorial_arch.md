@@ -363,4 +363,42 @@ salve (normalmente ctrl+f10) e  agora deve  ligar
 
 # Parabéns, Arch foi instalado, agora caso não queira ficar apenas com linhas de comando, prossiga  para  instalar um ambiente desktop (O mais difícil já foi)
 </div>
+
+### 5. Instalando  um Ambiente Gráfico:
+
+> **Eu uso e recomendo Hyprland** porém vou ensinar primeiro os mais "clichês" e tradicionais, e em breve adiciono  seção do hyprland, por ter mais etapas
+Sem entrar muito em comparações, há diversas opções disponíveis, como gnome, plasma, lxde,  cinnamon, cosmic etc;
+
+> Pesquise, veja videos no youtube por aí e escolha um
+
+#### Vou seguir com o plasma como exemplo:
+Agora que o Arch já está instalado, você precisa aprender a usar o pacman,  que é  o instalador padrão de pacotes do Arch.
+
+**Para instalar um pacote:**
+```
+sudo pacman -S nomedopacote
+```
+**Para atualizar o sistema**:
+```
+sudo pacman -Syu
+```
+**Os ambientes gráficos, como o  plasma por exemplo, geralmente oferecem uma gama de aplicativos, como gerenciadores de arquivos, terminais, etc, porém  são opcionais, no caso do plasma, você pode instalar apenas o ambiente mínimo com  o pacote `plasma-desktop `, caso queira mais completo, com vários apps como explorador de arquivos, editor de texto, imagens etc, instale o `plasma`:
+```
+sudo pacman -S plasma OU sudo pacman -S plasma-desktop
+```
+> Reinicie o computador  após concluir a instalação do  ambiente gráfico, e (provavelmente) irá ligar automaticamente em uma interface gráfica de login 
+
+Para instalar outros apps, como navegador por exemplo, use o pacman como mencionado anteriormente:
+```
+sudo pacman -S firefox
+sudo pacman -S brave
+sudo pacman -S kitty
+```
+Válido mencionar que é possível instalar  vários pacotes de uma vez, separando-os com um espaço:
+```
+sudo pacman -S firefox brave kitty vlc ffmpeg vscodium 
+```
+> [!WARNING]
+> Atualize regularmente o sistema com `sudo pacman -Syu`
+
 (🚧EM CONSTRUÇÃO🚧) atualizo em breve
