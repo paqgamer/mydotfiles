@@ -171,8 +171,12 @@ label:focus {
   background-color: @activeBg;
 }
 
-#backlight {
-  background-color: @activeBg;
+#custom-backlight {
+  background-color: @surface;
+  border-radius: 100px;
+  padding-right: 8px;
+  padding-left: 8px;
+  box-shadow: 0px 0px 8px 4px @shadow inset;
 }
 
 #quicklinks {
