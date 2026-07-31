@@ -22,6 +22,15 @@
     },
     "separate-outputs": true
   },
+	"backlight": {
+	        // "device": "intel_backlight", // Descomente e ajuste se o Waybar não detectar sua tela automaticamente
+	        "format": "{icon}  {percent}%",
+	        "format-icons": ["󰃞", "󰃟", "󰃠"], // Ícones Nerd Fonts (Vazio, Médio, Cheio)
+	        "on-scroll-up": "brightnessctl set 1%+",
+	        "on-scroll-down": "brightnessctl set 1%-",
+	        "tooltip": true,
+	        "tooltip-format": "Brilho da tela: {percent}%"
+	    },
 
   // Rofi Application Launcher
   "custom/appmenu": {
@@ -147,12 +156,19 @@
     "format-icons": ["󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰂂", "󰁹"]
   },
 
+	"custom/power": { 
+		"format": "",
+		    "tooltip-format": "Powermenu",
+		    "on-click": "wlogout",
+		    "tooltip": false
+	},
+
   // Idle Inhibator
   "idle_inhibitor": {
     "format": "{icon}",
     "tooltip": true,
     "format-icons": {
-      "activated": "",
+      "activated": "",
       "deactivated": ""
     },
     "on-click-right": "hyprlock"

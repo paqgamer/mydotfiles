@@ -149,6 +149,16 @@ window#waybar.empty #window {
   }
 }
 
+#battery{
+	background-color: @surface;
+	padding-right: 8px;
+	padding-left: 8px;
+	
+	border-radius:50px;
+}
+
+
+
 #battery.critical:not(.charging) {
   background-color: @activeBg;
   animation-name: blink;
@@ -207,11 +217,14 @@ menuitem {
 #idle_inhibitor {
     padding: 0 10px;
     font-size: 18px;
+    background-color: @surface;
+    border-radius: 15px;
 }
 
 #idle_inhibitor.activated {
     color: #fab387; /* Cor de destaque (ex: laranja) */
-    background-color: rgba(250, 179, 135, 0.1);
+    background-color: rgba(250, 169, 135, 0.3);
+    border-radius: 35px;
 }
 
 #idle_inhibitor.deactivated {
